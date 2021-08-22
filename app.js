@@ -8,7 +8,7 @@ function constructURL(text){
   return url + "?"+"text="+text;
 }
 
-button.addEventListener("click", function handleClick(){
+function handleClick() {
 
   var text = txtInput.value;
 
@@ -22,5 +22,6 @@ button.addEventListener("click", function handleClick(){
       console.log("error occured ", error);
       alert("Something wrong with server! try again after some time")
     })
+}
 
-})
+button.addEventListener("click", handleClick);
