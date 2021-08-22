@@ -7,8 +7,16 @@
 
 
 body{
-  color: black;
   font-family: 'Kalam', cursive;
+  color: #333333;
+}
+
+h1{
+  font-weight: normal;
+}
+
+h2{
+  font-weight: normal;
 }
 
 
@@ -19,7 +27,7 @@ button{
 /* header */
 
 header{
-  height: 80px;
+  height: 85px;
   background-color: #F2C94C;
   text-align: center;
   padding-top: 20px;
@@ -28,46 +36,49 @@ header{
 /* main */
 
 section{
-  height: 400px;
+  height: 390px;
   width: 800px;
   margin: 0 auto;
   text-align: center;
-
 }
 
 .textInput{
-  margin: 50px auto 10px;
+  width: 80%;
+  height: 33%;
+  margin: 43px 0 5px 47px;
+}
+
+::placeholder{
+  font-family: 'Kalam', cursive;
+  font-size: 18px;
 }
 
 .btn{
-  width: 25%;
+  width: 27%;
   height: 15%;
-  margin-left: 112px;
+  margin-left: 105px;
   background-color: #F2C94C;
   border: none;
-
+  font-size: 18px;
+  font-family: 'Kalam', cursive;
 }
 
 .text{
-  padding-right: 380px;
-  margin-top: 10px;
+  padding-right: 387px;
+  margin-top: 17px;
 }
 
 .outDiv{
-  width: 72%;
+  width: 85%;
   height: 17%;
   border: 1px solid black;
-  margin-left: 113px;
+  margin-left: 107px;
+  margin-bottom: 20px;
+  overflow: scroll;
+  padding: 5px;
+  text-align: left;
 
 }
-
-
-
-
-
-
-
-
 
 
 /* footer */
