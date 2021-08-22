@@ -1,14 +1,80 @@
 /* General Styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body{
-  width: calc(100vh - 50px);
-  height: calc(100vh - 50px);
-  background-color: yellow;
-  color: white;
+  color: black;
   font-family: 'Kalam', cursive;
 }
 
 
 button{
   display: block;
+}
+
+/* header */
+
+header{
+  height: 80px;
+  background-color: #F2C94C;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* main */
+
+section{
+  height: 400px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.textInput{
+  margin: 50px auto 10px;
+}
+
+.btn{
+  width: 25%;
+  height: 15%;
+  margin-left: 112px;
+  background-color: #F2C94C;
+  border: none;
+
+}
+
+.text{
+  padding-right: 380px;
+  margin-top: 10px;
+}
+
+.outDiv{
+  width: 72%;
+  height: 17%;
+  border: 1px solid black;
+  margin-left: 113px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+height: 150px;
+background-color: #F2C94C;
+text-align: center;
+padding-top: 20px;
 }
