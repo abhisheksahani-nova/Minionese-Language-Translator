@@ -1,3 +1,14 @@
+/* General Styling */
+
+body{
+  width: calc(100vh - 50px);
+  height: calc(100vh - 50px);
+  background-color: yellow;
+  color: white;
+  font-family: 'Kalam', cursive;
+}
+
+
 button{
   display: block;
 }
